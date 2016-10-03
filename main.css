@@ -104,6 +104,6 @@
 @media only screen and (max-width:204px) {
    .background1{
        background-image: url(phone-11.svg);
-       max-height:410px;
+       min-height:410px;
     }
 }
