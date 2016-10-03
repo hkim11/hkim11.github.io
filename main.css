@@ -4,8 +4,7 @@
     background-repeat: no-repeat;
     background-size:cover;
     background-position:center center;
-    max-height: 800px;
-    min-height: 800px;
+    max-height: 100%;
 }
 .background1{
     background-image:url("bg1.svg");
@@ -13,6 +12,7 @@
 
 .background2{
     background-image:url("bg2.svg");
+    z-index:6;
 }
 .background3{
     background-image:url("bg3.svg");
@@ -39,6 +39,7 @@
     width:87px; height:35px;
     margin-left:93.9%;
     top:100px;
+    margin-right:0;
 }
 .box4{
     width:272px; height:436px;
@@ -91,5 +92,11 @@
     min-height: 222px;
     top: -212px;
     margin-left: 37%
+}
+.ntwo{
+    background-image:url(dots.png);
+    background-repeat:no-repeat;
+    height:800px;
+    z-index:10;
 }
 
