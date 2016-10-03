@@ -102,8 +102,7 @@
 }
 
 @media only screen and (max-width:204px) {
-   .background{
-       width:100%;
-       height:410px;
+   .background1{
+       background-image: url(phone-11.svg);
     }
 }
