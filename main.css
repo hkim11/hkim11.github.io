@@ -95,12 +95,3 @@
     top: -212px;
     margin-left: 37%
 }
-.circle{
-       background-image: url(dots.png);
-    margin-top: -278px;
-    z-index: 10;
-    min-height: 101px;
-    background-repeat: no-repeat;
-    background-position: 900px;
-}
-img{height:250px;}
