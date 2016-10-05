@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     background-size:cover;
     background-position:center center;
-    max-height: 100%;
+    max-height: 800px;
 }
 .background1{
     background-image:url("bg1.svg");
@@ -17,6 +17,7 @@
 }
 .background3{
     background-image:url("bg3.svg");
+    z-index:5;
 }
 .box1{
     border:10px solid white;
@@ -94,17 +95,12 @@
     top: -212px;
     margin-left: 37%
 }
-.ntwo{
-    background-image:url(dots.png);
-    background-repeat:no-repeat;
-    height:800px;
-    z-index:10;
+.circle{
+       background-image: url(dots.png);
+    margin-top: -278px;
+    z-index: 10;
+    min-height: 101px;
+    background-repeat: no-repeat;
+    background-position: 900px;
 }
-
-@media only screen and (min-width:204px) {
-   .background1{
-       background-image: url(phone-11.svg);
-       min-height:410px;
-    }
-    .box3{margin-left:10%;}
-}
+img{height:250px;}
