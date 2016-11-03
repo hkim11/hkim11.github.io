@@ -5,9 +5,9 @@ body{width:1280px;}
     background-color: #f7f5eb;}
 li{text-decoration:none;
     display:inline-block;
-    font-family:"";
+    font-family:;
     color:#494949;
-    margin:0.5% 3.5%;
+    padding:0.5% 3.5%;
     position: relative;
     height:137px;
     line-height:137px;
@@ -32,19 +32,19 @@ li{text-decoration:none;
           color:rgba(255,255,255,0.8);
 }
 .maintext img{margin-left:76.2%;}
-H1{font-size:70px;}
+h1{font-size:70px;}
 P{font-size:15pt;
   line-height:1.4;
   padding-top:7px;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
+  font-family:;
   letter-spacing: 1px;
 
 }
 .products{height:670px;
           background-color:#f7f5eb;
 }
-h2{text-align:center;padding:3% 0 1% 0;}
+h2{text-align:center;padding:3% 0 1% 0;font-family:;
+   font-size:24pt;}
 .textbox{width:55%;
          text-align:center;
          padding-bottom:40px;}
@@ -97,3 +97,10 @@ background-image:url(position.jpg);}
           margin-left:45px;}
 .followus img{padding-top:5px;
               margin-left:40px;}
+
+@media (max-width:600px) {
+  li{padding:1px 0.5%;
+      float:left;
+      font-size:14px;
+    }
+}
