@@ -1,11 +1,12 @@
 *{margin:0 auto;}
 body{width:1280px;}
+.wrap{margin:0 auto;}
 .nav{text-align: center;
     height:140px;
     background-color: #f7f5eb;}
 li{text-decoration:none;
     display:inline-block;
-    font-family:;
+    font-family: 'Roboto Condensed', sans-serif;
     color:#494949;
     padding:0.5% 3.5%;
     position: relative;
@@ -32,24 +33,29 @@ li{text-decoration:none;
           color:rgba(255,255,255,0.8);
 }
 .maintext img{margin-left:76.2%;}
-h1{font-size:70px;}
+h1{font-size:70px;
+   font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing:1px;
+}
 P{font-size:15pt;
   line-height:1.4;
   padding-top:7px;
-  font-family:;
+  font-family:lato;
+  font-weight:300;
+  font-size:14pt;
   letter-spacing: 1px;
 
 }
 .products{height:670px;
           background-color:#f7f5eb;
 }
-h2{text-align:center;padding:3% 0 1% 0;font-family:;
-   font-size:24pt;}
+h2{text-align:center;padding:3% 0 1% 0;font-family: 'Roboto Condensed', sans-serif;
+   letter-spacing:2px; font-size:24pt;}
 .textbox{width:55%;
          text-align:center;
          padding-bottom:40px;}
 .box{width:940px;height:385px;}
-.box p{font-size:13pt;text-align: center;color:white;}
+.box p{font-size:13pt;text-align: center;color:white;font-size:11pt;}
 .sbox{width:200px;}
 .sbox img{text-align:center;}
 .summer, .spring{width:450px;
@@ -81,7 +87,7 @@ h2{text-align:center;padding:3% 0 1% 0;font-family:;
 background-image:url(position.jpg);}
 .lasttext{height:385px; width:290px;float:right;}
 .slasttext{width:200px;padding-top:90px;}
-.slasttext p{color:#494949;text-align:left;}
+.slasttext p{color:#494949;text-align:left;font-size:11pt;}
 .slasttext img{padding-top:15%;}
 .footer .box{height:140px;}
 .footer img{padding-top:90px;}
@@ -94,13 +100,23 @@ background-image:url(position.jpg);}
           margin-top:4%;
           font-size:10pt;   
           text-align:left;
-          margin-left:45px;}
+          margin-left:45px;
+          font-family: 'Roboto Condensed', sans-serif;
+}
 .followus img{padding-top:5px;
               margin-left:40px;}
+a{transition: all 0.3s ease;
+  text-decoration: none;
+   color:#494949;
+}
+.nav a:hover{color:#f27622;border-bottom: dashed 1px #f27622;}
 
-@media (max-width:600px) {
-  li{padding:1px 0.5%;
-      float:left;
-      font-size:14px;
-    }
+.scrollup{float:right;opacity: 0.5;}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+      li{padding:1px 3.5%;
+      font-size:14px;}
 }

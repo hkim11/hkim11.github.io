@@ -1,22 +1,43 @@
 *{margin:0 auto;}
 body{width:1280px;}
+.wrap{margin:0 auto;}
 .nav{text-align: center;
     height:140px;
     background-color: #f7f5eb;}
 li{text-decoration:none;
     display:inline-block;
-    font-family:;
+    font-family: 'Roboto Condensed', sans-serif;
     color:#494949;
     margin:0.5% 3.5%;
-    position: relative;
     height:137px;
     line-height:137px;
     vertical-align: middle;
     }
-.accomp .left{width:50%;overflow:left;}
-.accomp .right{width:50%;overflow:right;}
+.nav li:first-child{color:#f27622;;}
+.border{border-bottom:dashed 1px #23a55b;}
+.about{width:800px;height:700px;}
+.about h2{text-align: left;padding-top:8%;}
 
-<!--footer-->
+.carrot img{float:right;}
+.green{margin-top:55px;padding-right:27px;}
+.potato{margin-top:-230px;}
+.carrot{width:800px;}
+.carrot p{line-height:1.7em;}
+.about p{width:415px;float:left;font-family: lato;}
+.accomp{border-bottom:dashed 1px #23a55b;height:750px;float:center;}
+.accomp .left{width:40%;float:left;padding-left:50px;}
+.accomp .right{width:45%;float:right;}
+.accomp p{font-family: lato;width:300px;margin-top:-60px;}
+.accomp li{line-height: 1.5;width:552px;height:130px;}
+ul {
+  list-style: none;
+}
+h5{color:#f27622;font-family: lato;letter-spacing: 0.7pt;font-style: italic;line-height:1;padding-bottom:20px;}
+.team{height:700px;padding-left:42px;}
+.meet li {line-height:2;}
+.meet p{width:470px;font-family: lato;}
+h2{text-align: center;margin-bottom:5%;margin-top:3%;font-family: 'Roboto Condensed', sans-serif;letter-spacing: 1px;}
+
 .footer{height:140px;
         background-color:#f7f5eb;
         margin-top:50px;
@@ -32,6 +53,10 @@ li{text-decoration:none;
           margin-top:4%;
           font-size:10pt;   
           text-align:left;
-          margin-left:45px;}
+          margin-left:45px;
+          font-family: 'Roboto Condensed', sans-serif;
+}
 .followus img{padding-top:5px;
               margin-left:40px;}
+.box{width:940px;}
+.scrollup{float:right;opacity: 0.5;}
